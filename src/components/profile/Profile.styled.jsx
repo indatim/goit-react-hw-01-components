@@ -60,7 +60,6 @@ export const ProfileStats = styled.ul`
   background-color: rgba(246, 246, 246, 0.833)}
 `
 export const ProfileViews = styled.li`
-<i class="fa-solid fa-user-group"></i>
   border-left: 1px solid #d3d5e3;
   border-right: 1px solid #d3d5e3;
   &:hover {
