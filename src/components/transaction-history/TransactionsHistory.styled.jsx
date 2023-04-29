@@ -14,14 +14,14 @@ export const HeadTableRow = styled.thead`
 export const HeadTableColumn = styled.tr`
   width: 33%;
   padding: 1rem 5rem;
-  background-color: #02bbd7;
+  background-color: #34c9e0;
   color: #ffffff;
   font-size: 2rem;
   text-transform: uppercase;
   text-align: center;
 
   &:last-child {
-  border-radius: 0.5rem 0 0 0;
+  border-radius: 0 0.5rem 0 0;
 }
   &:first-child {
   border-radius: 0 0.5rem 0 0;
@@ -48,14 +48,6 @@ export const DataRow = styled.tr`
 
   &:nth-child(even) {
 background-color: #bebebe;
-}
-
-    &:first-child {
-  border-radius:  0 0 0 0.5rem;
-}
-
-  &:last-child {
-  border-radius: 0 0 0.5rem 0;
 }
 `
 

@@ -37,14 +37,6 @@ export const FriendStatus = styled.span`
     } };
 `
 
-// export const FriendOnline = styled.span`
-//     background-color: green;
-// `
-
-// export const FriendOffline = styled.span`
-//     background-color: red;
-// `
-
 export const FriendAvatar = styled.img`
   margin: 0 auto;
 `
