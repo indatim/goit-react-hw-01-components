@@ -42,16 +42,6 @@ export const StatisticsList = styled.ul`
 }
 `
 
-// export const StatisticsItem = styled.li`
-//   background-color: ${getRandomHexColor()};
-// `
-
-// function getRandomHexColor() {
-// 	return `#${Math.floor(Math.random() * 16777215)
-// 		.toString(16)
-// 		.padStart(6, 0)}`;
-// }
-
 export const StatisticsLabel = styled.span`
   padding-top: 1.3rem;
   font-size: 1rem;

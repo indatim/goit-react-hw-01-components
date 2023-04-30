@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TransactionsTable = styled.table`
   margin: 10vh auto;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
   border-radius: 0.5rem;
 `
 

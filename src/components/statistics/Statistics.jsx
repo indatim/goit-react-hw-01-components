@@ -1,22 +1,8 @@
 import PropTypes from 'prop-types';
 import { StatisticsContainer, StatisticsTitle, StatisticsList, StatisticsLabel, StatisticsPercentage } from './Statistics.styled';
 
-// function Statistics({ title , stats }) {
-//     return (<div><section className="statistics">
-//   <h2 className="title">{title}</h2>
-
-//   <ul className="stat-list">{
-//     <li className="item">
-//       <span className="label">{stats.label}</span>
-//       <span className="percentage">{stats.percentage}</span>
-//     </li>}
-//   </ul>
-//     </section>
-//     </div>);
-// }
-
 export const Statistics = ({ title , stats }) => (<StatisticsContainer><section className="statistics">
-  <StatisticsTitle>{title}</StatisticsTitle>
+  {title && <StatisticsTitle>{title}</StatisticsTitle>}
 
   <StatisticsList>{
     stats.map(stat => (<li className="item" style={{ backgroundColor: getRandomHexColor() }} key={stat.id}>
@@ -42,5 +28,3 @@ Statistics.propTypes = {
     percentage: PropTypes.number.isRequired,  
     })).isRequired,
 }
-
-// export default Statistics;
